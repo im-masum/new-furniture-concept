@@ -507,6 +507,7 @@ header {
         flex-wrap: wrap;
         align-items: center;
         width: 100%;
+        height: auto;
         padding: 1em auto;
         border: 10px solid rgb(221, 214, 214);
         border-radius: 20px;
@@ -518,8 +519,7 @@ header {
         flex-wrap: wrap;
         width: 100%;
         padding: 10px;
-        margin: 10px auto;
-        overflow: hidden;
+        overflow: auto;
     }
 
     .logo {
@@ -535,7 +535,7 @@ header {
     }
 
     .hello {
-        display: none;
+        font-size: 24px;
     }
 
     .search-bar {
@@ -563,7 +563,7 @@ header {
 
     .profile {
         display: inline-flex;
-        gap: 20px;
+        gap: 10px;
     }
 
     .profile i {
@@ -653,7 +653,7 @@ header {
         position: relative;
         flex-direction: column;
         width: 100%;
-        top: 50px;
+        top: -50px;
         overflow: hidden;
     }
     
@@ -724,11 +724,13 @@ header {
     
     .furniture-container {
         display: flex;
+        position: relative;
         flex-direction: column;
         gap: 20px;
         width: 100%;
         height: auto;
-        top: 150px;
+        top: 100px;
+        
     }
 
     .furniture {
