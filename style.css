@@ -519,6 +519,7 @@ header {
         width: 100%;
         padding: 10px;
         margin: 10px auto;
+        overflow: hidden;
     }
 
     .logo {
@@ -675,10 +676,10 @@ header {
     .product-container-nav {
         display: flex;
         position: relative;
-        
+        width: 100%;
+        height: auto;
         padding: 10px;
         margin: 10px;
-        width: 100%;
         
     }
     
@@ -723,18 +724,19 @@ header {
     
     .furniture-container {
         display: flex;
-        position: relative;
         flex-direction: column;
         gap: 20px;
         width: 100%;
+        height: auto;
         top: 150px;
     }
 
     .furniture {
         display: flex;
-        flex-wrap: wrap;
+        flex-direction: column;
         gap: 20px;
         width: 100%;
+        height: auto;
         margin: 0px;
     }
 
