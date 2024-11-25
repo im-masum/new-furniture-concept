@@ -621,7 +621,7 @@ header {
         align-items: center;
         justify-content: center;
         top: -150px;
-        width: 70%;
+        width: 80%;
         padding: 20px;
         box-shadow: 2px 2px 10px .5px;
         border: none;
@@ -629,7 +629,7 @@ header {
     }
 
     .select-opts {
-        flex-basis: 20%;
+        flex-basis: 10%;
     }
 
     .select-btn {
@@ -652,7 +652,7 @@ header {
         position: relative;
         flex-direction: column;
         width: 100%;
-        top: -100px;
+        top: -120px;
         overflow: hidden;
     }
 
@@ -660,9 +660,9 @@ header {
         display: inline-flex;
         color: #000;
         text-decoration: none;
-        font-size: 32px;
+        font-size: 24px;
         border-bottom: 2px solid;
-        padding: 5px 20px;
+        padding: 5px 15px;
         transition: .3s;
     }
 
@@ -695,10 +695,10 @@ header {
     }
 
     .furniture-items a {
-        padding: 10px 20px;
+        padding: 5px 15px;
         text-decoration: none;
         color: #000;
-        font-size: 32px;
+        font-size: 24px;
         transition: .3s;
 
     }
@@ -755,16 +755,19 @@ header {
     .item-details {
         display: inline-flex;
         width: 100%;
-        height: 70px;
-        padding: 10px;
+        align-items: center;
+        justify-content: space-between;
+        padding: 5px;
         margin: 10px;
     }
 
     .item-details a {
         margin: 0px;
-        padding: 5px 20px;
+        padding: 5px 15px;
         border-radius: 4px;
+        font-size: 24px;
     }
+
 
     .rating {
         border: .5px solid grey;
