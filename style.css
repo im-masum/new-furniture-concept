@@ -660,11 +660,14 @@ header {
         padding: 10px;
 
     }
+    .product-container .header h3{
+        font-size: 16px;
+    }
     .product-container .header a {
         display: inline-flex;
         color: #000;
         text-decoration: none;
-        font-size: 20px;
+        font-size: 16px;
         border-bottom: 1px solid;
         padding: 5px 10px;
         transition: .3s;
@@ -676,6 +679,7 @@ header {
         font-size: 16px;
 
     }
+
 
     .product-container-nav {
         display: flex;
@@ -764,15 +768,18 @@ header {
         justify-content: space-between;
         align-items: center;
         width: 100%;
-        padding: 5px;
-        font-size: 24px;
     }
-
+     .item-details p{
+        font-size: 20px;
+     }
     .item-details a {
         margin: 0px;
-        padding: 5px 12px;
+        padding: 4px 16px;
         border-radius: 4px;
-        font-size: 20px;
+        font-size: 16px;
+    }
+    .item-details a span{
+        font-size: 16px;
     }
 
 
