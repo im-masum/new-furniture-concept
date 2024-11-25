@@ -726,17 +726,18 @@ header {
         display: flex;
         position: relative;
         flex-direction: column;
-        gap: 20px;
+        gap: 10px;
         width: 100%;
         height: auto;
         top: 150px;
+        overflow-y: scroll;
         
     }
 
     .furniture {
         display: flex;
         flex-direction: column;
-        gap: 20px;
+        gap: 10px;
         width: 100%;
         height: auto;
         margin: 0px;
