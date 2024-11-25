@@ -514,6 +514,8 @@ header {
     }
 
     header {
+        display: flex;
+        flex-wrap: wrap;
         width: 100%;
         padding: 10px;
         margin: 10px auto;
@@ -628,7 +630,7 @@ header {
 
     .select-opts {
         display: flex;
-        min-width: 200px;
+        min-width: 100px;
     }
 
     .select-btn {
@@ -650,10 +652,10 @@ header {
         position: relative;
         flex-direction: column;
         width: 100%;
-        top: -100px;
+        top: 50px;
         overflow: hidden;
     }
-
+    
     .product-container .header a {
         display: inline-flex;
         color: #000;
@@ -673,35 +675,35 @@ header {
     .product-container-nav {
         display: flex;
         position: relative;
-
+        
         padding: 10px;
         margin: 10px;
         width: 100%;
-
+        
     }
-
+    
     .furniture-items ul {
         display: inline-flex;
         width: 100%;
         gap: 5px;
     }
-
+    
     .furniture-items ul li {
         display: flex;
         flex-wrap: wrap;
         gap: 10px;
-
+        
     }
-
+    
     .furniture-items a {
         padding: 5px 15px;
         text-decoration: none;
         color: #000;
         font-size: 24px;
         transition: .3s;
-
+        
     }
-
+    
     .sort-btn {
         display: flex;
         flex-direction: column;
@@ -710,7 +712,7 @@ header {
         flex-wrap: wrap;
         gap: 10px;
     }
-
+    
     .sort-btn .btn {
         display: flex;
         text-align: center;
@@ -718,14 +720,14 @@ header {
         gap: 20px;
         width: 200px;
     }
-
+    
     .furniture-container {
         display: flex;
         position: relative;
         flex-direction: column;
         gap: 20px;
         width: 100%;
-        top: 100px;
+        top: 150px;
     }
 
     .furniture {
@@ -733,7 +735,6 @@ header {
         flex-wrap: wrap;
         gap: 20px;
         width: 100%;
-        height: auto;
         margin: 0px;
     }
 
@@ -754,12 +755,11 @@ header {
 
     .item-details {
         display: inline-flex;
-        width: 100%;
-        align-items: center;
         justify-content: space-between;
+        align-items: center;
+        width: 100%;
         padding: 5px;
-        margin: 10px;
-        font-size: 24px;
+        font-size: 20px;
     }
 
     .item-details a {
