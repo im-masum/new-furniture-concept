@@ -813,5 +813,7 @@ header {
         justify-content: center;
 
     }
-
+    .rating span{
+        font-size: 24px;
+    }
 }
