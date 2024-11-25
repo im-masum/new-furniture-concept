@@ -565,12 +565,12 @@ header {
 
     .profile {
         display: inline-flex;
-        gap: 10px;
+        gap: 4px;
     }
 
     .profile i {
-        font-size: 36px;
-        margin-left: 10px;
+        font-size: 20px;
+        margin-left: 4px;
 
     }
 
@@ -814,6 +814,6 @@ header {
 
     }
     .rating span{
-        font-size: 24px;
+        font-size: 16px;
     }
 }
