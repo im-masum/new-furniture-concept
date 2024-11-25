@@ -718,7 +718,7 @@ header {
         text-align: center;
         justify-content: center;
         gap: 10px;
-        min-width: 100px;
+        padding: 10px;
     }
     
     .furniture-container {
