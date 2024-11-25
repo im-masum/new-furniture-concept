@@ -710,7 +710,6 @@ header {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        flex-wrap: wrap;
         gap: 10px;
     }
     
@@ -718,8 +717,8 @@ header {
         display: flex;
         text-align: center;
         justify-content: center;
-        gap: 20px;
-        width: 200px;
+        gap: 10px;
+        min-width: 100px;
     }
     
     .furniture-container {
