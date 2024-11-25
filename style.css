@@ -390,8 +390,8 @@ header {
     align-items: center;
     justify-content: center;
     gap: 10px;
-    width: 200px;
     padding: 10px;
+    width: 150px;
     border-radius: 50px;
     border: none;
     cursor: pointer;
