@@ -560,7 +560,7 @@ header {
 
     .profile {
         display: inline-flex;
-        gap: 60px;
+        gap: 20px;
     }
 
     .profile i {
@@ -619,15 +619,16 @@ header {
         justify-content: center;
         top: -100px;
         width: 90%;
-        padding: 10px;
+        padding: 5px;
         box-shadow: 2px 2px 8px .5px;
         border: none;
+        flex-direction: column;
 
     }
 
     .select-opts {
-        display: inline-flex;
-        flex-basis: 10%;
+        display: flex;
+        min-width: 200px;
     }
 
     .select-btn {
