@@ -530,10 +530,8 @@ header {
 
     .logo {
         gap: 20px;
-        width: 200px;
         font-size: 36px;
-        margin-left: 20px;
-        padding: 20px;
+        padding: 10px;
     }
 
     .logo img {
