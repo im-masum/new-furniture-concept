@@ -569,18 +569,18 @@ header {
 
     .profile {
         display: inline-flex;
-        gap: 10px;
+        gap: 50px;
     }
 
     .profile i {
         font-size: 24px;
-        margin-left: 4px;
+        margin-left: 0px;
 
     }
 
     .profile-img {
         display: inline-flex;
-        gap: 15px;
+        gap: 20px;
     }
 
     .profile-img img {
@@ -588,7 +588,7 @@ header {
         height: 50px;
     }
     .profile-img  .user-name {
-        font-size: 16px;
+        font-size: 20px;
     }
 
 
