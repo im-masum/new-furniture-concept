@@ -9,6 +9,8 @@
 body {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
     width: 100%;
     padding: 2em auto;
     border: 20px solid rgb(221, 214, 214);
@@ -501,7 +503,7 @@ header {
 
 /*===Responsive for mobile screen=== */
 
-@media (max-width: 766px) {
+@media only screen and (min-width:601px) and (max-width: 768px) {
 
     body {
         display: flex;
