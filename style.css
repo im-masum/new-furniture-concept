@@ -602,7 +602,6 @@ header {
         gap: 10px;
         padding: 10px;
         border-top: .5px solid rgb(186, 180, 180);
-
     }
 
     .side-nav {
@@ -634,7 +633,7 @@ header {
         align-items: center;
         justify-content: center;
         top: -150px;
-        width: 70%;
+        width: 60%;
         padding: 20px;
         box-shadow: 0px 0px 8px .5px;
         border: none;
@@ -647,8 +646,6 @@ header {
         justify-content: center;
         width: 100%;
         font-size: 16px;
-        flex-grow: 1;
-
     }
 
     .select-btn {
@@ -659,7 +656,11 @@ header {
     }
 
     .search-btn {
-        padding: 5px 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+        width: 50%;
         letter-spacing: 10px;
         font-size: 24px;
         box-shadow: 1px 1px 5px .5px;
@@ -722,7 +723,6 @@ header {
         display: flex;
         flex-wrap: wrap;
         gap: 10px;
-
     }
 
     .furniture-items a {
