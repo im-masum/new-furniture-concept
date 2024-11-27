@@ -508,12 +508,10 @@ header {
 
 /*===Responsive for mobile screen=== */
 
-@media screen and (min-width:601px) and (max-width:768px) {
+@media only screen and (min-width:600px) and (max-width:768px) {
 
     body {
-        display: flex;
-        position: relative;
-        flex-wrap: wrap;
+        
         width: 100%;
         height: auto;
         padding: 1em auto;
@@ -527,7 +525,7 @@ header {
         justify-content: center;
         flex-direction: column;
         flex-wrap: wrap;
-        width: 100%;
+        width:100%;
         padding: 10px;
     }
 
@@ -836,14 +834,10 @@ header {
 }
 
 
-@media screen and (min-width:992px) and (max-width: 1200px) {
+@media only screen and (min-width:992px) and (max-width: 1200px) {
 
     body {
-        display: flex;
-        background-color: #292727;
-        position: relative;
-        flex-wrap: wrap;
-        width: 100%;
+        width: 1000px;
         height: auto;
         padding: 1em auto;
         border: 10px solid rgb(221, 214, 214);
