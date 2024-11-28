@@ -429,14 +429,6 @@ header {
     margin: 10px auto;
 }
 
-.furniture-1 {
-    display: inline-flex;
-    gap: 20px;
-    width: 100%;
-    height: 550px;
-    margin: 10px auto;
-}
-
 .sofa-chair {
     display: flex;
     gap: 20px;
@@ -452,11 +444,6 @@ header {
     width: 100%;
     height: 350px;
     transition: .5s;
-    border-radius: 10px;
-}
-
-.sofa-chair img:hover {
-    transform: scale(1.1);
     border-radius: 10px;
 }
 
@@ -1138,7 +1125,7 @@ header {
         justify-content: center;
         align-items: center;
         top: -150px;
-        width: 70%;
+        width: 80%;
         box-shadow: 0px 0px 8px .5px;
         padding: 10px;
 
@@ -1265,7 +1252,7 @@ header {
         display: flex;
         flex-direction: column;
         width: 100%;
-        gap: 15px;
+        gap: 20px;
         height: auto;
         box-shadow: 0px 0px 8px .5px;
 
@@ -1273,12 +1260,13 @@ header {
 
     .sofa-chair img {
         width: 100%;
-        height: 300px;
-        border-radius: 20px;
+        height: 350px;
+        border-radius: 10px;
     }
 
     .item-details p {
         font-size: 24px;
+        padding: 10px;
     }
 
     .item-details a {
@@ -1296,8 +1284,11 @@ header {
     }
 
     .rating {
-        width: 200px;
+        width: 165px;
         font-size: 20px;
+        padding: 10px;
+        align-items: center;
+        justify-content: center;
     }
 
     .rating span {
