@@ -9,8 +9,6 @@
 body {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
     width: 100%;
     padding: 2em auto;
     margin: 10px 0px;
@@ -515,12 +513,11 @@ header {
 @media only screen and (min-width:600px) and (max-width:768px) {
 
     body {
-
         width: 100%;
         height: auto;
+        margin: 10px 5px;
         padding: 1em auto;
         border: 10px solid rgb(221, 214, 214);
-        margin: 10px auto;
     }
 
     header {
@@ -544,8 +541,7 @@ header {
     }
 
     .search-bar {
-        margin: 20px auto;
-        width: 100%;
+        width: 80%;
         height: 50px;
         padding: 10px;
     }
@@ -608,8 +604,9 @@ header {
     .search-bx {
         flex-direction: column;
         top: -150px;
-        width: 60%;
+        width: 50%;
         box-shadow: 0px 0px 8px .5px;
+        padding: 5px;
 
     }
 
@@ -622,7 +619,7 @@ header {
     }
 
     .select-btn {
-        width: 50%;
+        width: 100%;
         padding: 5px;
         font-size: 20px;
     }
@@ -634,6 +631,7 @@ header {
         padding: 5px;
         width: 50%;
         font-size: 20px;
+        letter-spacing: 5px;
     }
 
     .product-container {
@@ -705,15 +703,16 @@ header {
     }
 
     .furniture-container {
-        gap: 5px;
+        gap: 10px;
         top: 50px;
     }
 
     .furniture {
         display: flex;
         flex-direction: column;
-        gap: 8px;
+        gap: 10px;
         margin: 0px;
+        height: auto;
     }
 
     .sofa-chair {
@@ -766,17 +765,17 @@ header {
 
     body {
         width: 100%;
-        height: 300vh;
+        height: auto;
         padding: 1em auto;
         border: 10px solid rgb(221, 214, 214);
-        margin: 10px auto;
+        margin: 10px 5px;
+        
     }
 
     header {
         display: flex;
         justify-content: center;
         flex-direction: column;
-
     }
 
     .logo {
@@ -789,19 +788,19 @@ header {
     }
 
     .hello {
-        font-size: 24px;
+        font-size: 32px;
     }
 
     .search-bar {
-        margin: 20px auto;
-        width: 100%;
+        margin: 20px;
+        width: 80%;
         height: 50px;
         padding: 10px;
     }
 
     .search-bar input {
         font-size: 24px;
-        height: 40px;
+        height: 50px;
     }
 
     .search-bar i {
@@ -817,16 +816,16 @@ header {
     }
 
     .profile-img {
-        gap: 10px;
+        gap: 20px;
     }
 
     .profile-img img {
-        width: 50px;
-        height: 50px;
+        width: 60px;
+        height: 60px;
     }
 
     .profile-img .user-name {
-        font-size: 20px;
+        font-size: 24px;
     }
 
 
@@ -857,8 +856,9 @@ header {
     .search-bx {
         flex-direction: column;
         top: -150px;
-        width: 60%;
+        width: 50%;
         box-shadow: 0px 0px 8px .5px;
+        padding: 10px;
 
     }
 
@@ -867,22 +867,20 @@ header {
         align-items: center;
         justify-content: center;
         width: 100%;
-        font-size: 16px;
+        font-size: 24px;
     }
 
     .select-btn {
-        width: 50%;
-        padding: 5px;
-        font-size: 20px;
+        width: 80%;
+        padding: 10px;
+        font-size: 24px;
     }
 
     .search-btn {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding: 5px;
+        padding: 10px;
         width: 50%;
-        font-size: 20px;
+        font-size: 24px;
+        letter-spacing: 5px;
     }
 
     .product-container {
@@ -894,18 +892,18 @@ header {
     }
 
     .product-container .header h3 {
-        font-size: 16px;
+        font-size: 24px;
     }
 
     .product-container .header a {
-        font-size: 16px;
-        padding: 5px 10px;
+        font-size: 24px;
+        padding: 10px 20px;
     }
 
     .product-container .header a span {
         color: #000;
         margin-left: 10px;
-        font-size: 16px;
+        font-size: 24px;
     }
 
     .product-container-nav {
@@ -917,52 +915,51 @@ header {
     }
 
     .furniture-items ul {
-        gap: 5px;
+        gap: 10px;
     }
 
     .furniture-items ul li {
         display: flex;
         flex-wrap: wrap;
-        gap: 10px;
+        gap: 20px;
     }
 
     .furniture-items a {
         padding: 5px 15px;
-        font-size: 20px;
+        font-size: 24px;
 
     }
 
     .sort-btn {
-        display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        width: 20%;
     }
 
     .sort-btn p {
-        font-size: 16px;
+        font-size: 32px;
     }
 
     .sort-btn .btn i {
-        font-size: 16px;
+        font-size: 20px;
     }
 
     .sort-btn .btn {
-        display: flex;
-        padding: 8px;
-        font-size: 16px;
+        padding: 10px;
+        font-size: 24px;
+        box-shadow: 0px 0px 5px .5px;
     }
 
     .furniture-container {
-        gap: 5px;
+        gap: 10px;
         top: 50px;
     }
 
     .furniture {
         display: flex;
         flex-direction: column;
-        gap: 8px;
+        gap: 12px;
         margin: 0px;
+        height: auto;
     }
 
     .sofa-chair {
@@ -976,35 +973,35 @@ header {
 
     .sofa-chair img {
         width: 100%;
-        height: 250px;
+        height: 300px;
         border-radius: 20px;
     }
 
     .item-details p {
-        font-size: 20px;
+        font-size: 24px;
     }
 
     .item-details a {
         display: inline-flex;
         margin: 0px;
-        padding: 5px;
+        padding: 10px;
         border-radius: 8px;
-        font-size: 16px;
+        font-size: 24px;
     }
 
     .item-details a span {
-        font-size: 16px;
+        font-size: 24px;
         margin-left: 5px;
 
     }
 
     .rating {
-        width: 100px;
-        font-size: 16px;
+        width: 150px;
+        font-size: 20px;
     }
 
     .rating span {
-        font-size: 12px;
+        font-size: 20px;
     }
 
 }
