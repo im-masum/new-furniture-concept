@@ -1119,7 +1119,7 @@ header {
     .search-bx {
         display: block;
         top: -150px;
-        width: 80%;
+        width: 90%;
         box-shadow: 0px 0px 8px .5px;
         padding: 10px;
 
@@ -1134,7 +1134,7 @@ header {
     }
 
     .select-btn {
-        width: 100%;
+        width: 80%;
         padding: 10px;
         font-size: 24px;
     }
