@@ -518,6 +518,7 @@ header {
         margin: 10px 5px;
         padding: 1em auto;
         /* border: 10px solid rgb(221, 214, 214); */
+        border: none;
     }
 
     header {
@@ -770,7 +771,9 @@ header {
         padding: 1em auto;
         /* border: 10px solid rgb(221, 214, 214); */
         margin: 10px 5px;
-        
+        border: none;
+
+
     }
 
     header {
