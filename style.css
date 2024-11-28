@@ -1046,7 +1046,8 @@ header {
         font-size: 24px;
     }
     .hello img{
-        font-size: 24px;
+        width: 80px;
+        height: 80px;
     }
     .search-bar {
         margin: 20px;
