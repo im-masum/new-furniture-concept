@@ -1065,6 +1065,8 @@ header {
     }
     .profile{
         display: flex;
+        flex-grow: 1;
+        width: 100%;
         align-items: center;
         gap: 30px;
     }
