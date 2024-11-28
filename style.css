@@ -1021,8 +1021,6 @@ header {
         padding: 10px;
         margin: 10px 5px;
         border: none;
-        background-color: #928a8a;
-    
     }
 
     header {
@@ -1047,8 +1045,8 @@ header {
         font-size: 24px;
     }
     .hello img{
-        width: 80px;
-        height: 80px;
+        width: 50px;
+        height: 50px;
     }
     .search-bar {
         margin: 20px;
@@ -1071,14 +1069,14 @@ header {
     }
     .profile{
         display: flex;
-        justify-content: space-between;
         align-items: center;
         width: 100%;
-        padding: 10px;
+        gap: 100px;
     }
 
     .profile i {
         font-size: 32px;
+        color: #a08585;
     }
 
     .profile-img {
@@ -1144,7 +1142,7 @@ header {
     .select-btn {
         display: flex;
         align-items: center;
-        justify-content: space-around;
+        justify-content: space-between;
         width: 100%;
         padding: 10px;
         font-size: 24px;
