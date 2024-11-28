@@ -1140,7 +1140,9 @@ header {
 
     .select-btn {
         display: flex;
-        width: 50%;
+        align-items: center;
+        justify-content: space-around;
+        width: 100%;
         padding: 10px;
         font-size: 24px;
     }
