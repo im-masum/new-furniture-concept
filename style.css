@@ -1026,11 +1026,11 @@ header {
 
     header {
         display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
         gap: 30px;
         width: 100%;
-        flex-direction: column;
     }
 
     .logo {
@@ -1070,10 +1070,10 @@ header {
     }
     .profile{
         display: flex;
-        flex-grow: 1;
-        width: 100%;
+        justify-content: space-between;
         align-items: center;
-        gap: 30px;
+        width: 100%;
+        padding: 10px;
     }
 
     .profile i {
