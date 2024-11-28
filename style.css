@@ -1026,8 +1026,10 @@ header {
 
     header {
         display: flex;
-        width: 100%;
         justify-content: center;
+        align-items: center;
+        gap: 30px;
+        width: 100%;
         flex-direction: column;
     }
 
@@ -1041,9 +1043,11 @@ header {
     }
 
     .hello {
-        font-size: 32px;
+        font-size: 24px;
     }
-
+    .hello img{
+        font-size: 24px;
+    }
     .search-bar {
         margin: 20px;
         width: 90%;
@@ -1080,8 +1084,8 @@ header {
     }
 
     .profile-img img {
-        width: 80px;
-        height: 80px;
+        width: 60px;
+        height: 50px;
     }
 
     .profile-img .user-name {
