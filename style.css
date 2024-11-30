@@ -497,255 +497,8 @@ header {
 }
 
 
-/*===Responsive for mobile screen=== */
-@media screen and (max-width:600px) {
-    body {
-        width: 100%;
-        height: auto;
-        margin: 0px 5px;
-        padding: 10px;
-        border: none;
-    }
 
-    header {
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-    }
-
-    .logo {
-        padding: 10px;
-    }
-
-    .logo img {
-        width: 80px;
-        height: 80px;
-    }
-
-    .hello {
-        font-size: 24px;
-    }
-
-    .search-bar {
-        width: 80%;
-        height: 50px;
-        padding: 10px;
-    }
-
-    .search-bar input {
-        font-size: 24px;
-        height: 40px;
-    }
-
-    .search-bar i {
-        left: 50px;
-        width: 50px;
-        height: 40px;
-        padding: 10px;
-        font-size: 24px;
-    }
-
-    .profile i {
-        font-size: 32px;
-    }
-
-    .profile-img {
-        gap: 10px;
-    }
-
-    .profile-img img {
-        width: 50px;
-        height: 50px;
-    }
-
-    .profile-img .user-name {
-        font-size: 20px;
-    }
-
-
-    .main {
-        gap: 10px;
-        padding: 10px;
-    }
-
-    .side-nav {
-        display: none;
-    }
-
-    .hero {
-        padding: 10px;
-    }
-
-    .banner {
-        padding: 10px;
-        border-radius: 20px;
-    }
-
-    .dialog {
-        padding: 10px;
-        font-size: 36px;
-        font-weight: 700;
-    }
-
-    .search-bx {
-        flex-direction: column;
-        top: -150px;
-        width: 50%;
-        box-shadow: 0px 0px 8px .5px;
-        padding: 5px;
-
-    }
-
-    .select-opts {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 100%;
-        font-size: 16px;
-    }
-
-    .select-btn {
-        width: 100%;
-        padding: 5px;
-        font-size: 20px;
-    }
-
-    .search-btn {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding: 5px;
-        width: 50%;
-        font-size: 20px;
-        letter-spacing: 5px;
-    }
-
-    .product-container {
-        top: -70px;
-    }
-
-    .product-container .header {
-        height: 100px;
-    }
-
-    .product-container .header h3 {
-        font-size: 16px;
-    }
-
-    .product-container .header a {
-        font-size: 16px;
-        padding: 5px 10px;
-    }
-
-    .product-container .header a span {
-        color: #000;
-        margin-left: 10px;
-        font-size: 16px;
-    }
-
-    .product-container-nav {
-        display: flex;
-        position: relative;
-        padding: 0px;
-        margin: 0px;
-
-    }
-
-    .furniture-items ul {
-        gap: 5px;
-    }
-
-    .furniture-items ul li {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 10px;
-    }
-
-    .furniture-items a {
-        padding: 5px 15px;
-        font-size: 20px;
-
-    }
-
-    .sort-btn {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .sort-btn p {
-        font-size: 16px;
-    }
-
-    .sort-btn .btn i {
-        font-size: 16px;
-    }
-
-    .sort-btn .btn {
-        display: flex;
-        padding: 8px;
-        font-size: 16px;
-    }
-
-    .furniture-container {
-        display: block;
-        gap: 10px;
-        top: 50px;
-    }
-
-    .furniture {
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-        margin: 0px;
-        height: auto;
-    }
-
-    .sofa-chair {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        height: auto;
-        box-shadow: 0px 0px 8px .5px;
-
-    }
-
-    .sofa-chair img {
-        width: 100%;
-        height: 250px;
-        border-radius: 20px;
-    }
-
-    .item-details p {
-        font-size: 20px;
-    }
-
-    .item-details a {
-        display: inline-flex;
-        margin: 0px;
-        padding: 5px;
-        border-radius: 8px;
-        font-size: 16px;
-    }
-
-    .item-details a span {
-        font-size: 16px;
-        margin-left: 5px;
-
-    }
-
-    .rating {
-        width: 100px;
-        font-size: 16px;
-    }
-
-    .rating span {
-        font-size: 12px;
-    }
-}
-
-
+/* ========Responsive For Mobile======== */
 
 @media screen and (min-width:601px) and (max-width:768px) {
 
@@ -1001,7 +754,7 @@ header {
 /*===Responsive for Tab and Laptop  screen=== */
 
 
-@media only screen and (min-width:800px) and (max-width:1200px){
+@media only screen and (min-width:800px) and (max-width:1200px) {
 
     body {
         display: flex;
@@ -1033,10 +786,12 @@ header {
     .hello {
         font-size: 24px;
     }
-    .hello img{
+
+    .hello img {
         width: 50px;
         height: 50px;
     }
+
     .search-bar {
         margin: 20px;
         width: 90%;
@@ -1056,7 +811,8 @@ header {
         padding: 10px;
         font-size: 24px;
     }
-    .profile{
+
+    .profile {
         display: flex;
         align-items: center;
         justify-content: space-around;
@@ -1138,9 +894,9 @@ header {
         width: 80%;
         font-size: 24px;
     }
-    
+
     .select-btn {
-        
+
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -1151,7 +907,7 @@ header {
 
     .search-btn {
         padding: 10px;
-        width:250px;
+        width: 250px;
         font-size: 32px;
         letter-spacing: 5px;
     }
@@ -1231,7 +987,7 @@ header {
 
     .sort-btn .btn {
         display: inline-flex;
-        padding: 5px ;
+        padding: 5px;
         width: 200px;
         font-size: 24px;
         box-shadow: 0px 0px 5px .5px;
