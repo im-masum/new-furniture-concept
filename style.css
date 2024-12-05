@@ -762,7 +762,7 @@ header img {
 /*===Responsive for Tab and Laptop  screen=== */
 
 
-@media screen and (max-width: 992px) {
+/* @media screen and (max-width: 992px) {
 
     body {
         width: 100%;
@@ -882,4 +882,4 @@ header img {
     .rating span {
         font-size: 12px;
     }
-}
+} */
