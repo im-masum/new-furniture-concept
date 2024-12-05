@@ -532,7 +532,7 @@ body {
 header {
     display: flex;
     position: relative;
-    bottom: 10px;
+    margin: 20px;
     align-items: center;
     justify-content: space-between;
     padding: 10px;
@@ -553,6 +553,7 @@ header img {
 
 .text {
     display: flex;
+    width: 100%;
     align-items: center;
     justify-content: center;
     width: 100%;
@@ -560,7 +561,6 @@ header img {
 
 .text h1 {
     display: flex;
-    flex-wrap: wrap;
     font-size: 100px;
     font-weight: 500;
 
@@ -660,9 +660,9 @@ header img {
         display: none;
     }
 
-    .product-container {
+    /* .product-container {
         top: -70px;
-    }
+    } */
 
     .product-container .header {
         display: none;
@@ -670,6 +670,7 @@ header img {
 
     .product-container-nav {
         display: flex;
+        width: 100%;
         position: relative;
         padding: 0px;
         margin: 0px;
@@ -688,7 +689,7 @@ header img {
 
     .furniture-items a {
         padding: 5px 15px;
-        font-size: 20px;
+        font-size: 18px;
 
     }
 
@@ -700,12 +701,15 @@ header img {
 
     .furniture-container {
         display: block;
+        width: 100%;
         gap: 10px;
         top: 50px;
     }
 
     .furniture {
         display: flex;
+        width: 100%;
+
         flex-direction: column;
         gap: 10px;
         margin: 0px;
@@ -758,7 +762,7 @@ header img {
 /*===Responsive for Tab and Laptop  screen=== */
 
 
-@media  screen and (max-width: 992px) {
+@media screen and (max-width: 992px) {
 
     body {
         width: 100%;
