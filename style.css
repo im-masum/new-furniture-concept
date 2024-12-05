@@ -630,7 +630,7 @@ header img {
 /* ========Responsive For Mobile======== */
 
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:767px) {
 
     body {
         width: 100%;
@@ -669,7 +669,7 @@ header img {
         color: #000;
         margin-left: 10px;
         font-size: 16px;
-    }
+    } 
 
     .product-container-nav {
         display: flex;
@@ -696,25 +696,10 @@ header img {
     }
 
     .sort-btn {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
+        display: none;
+        }
 
-    .sort-btn p {
-        font-size: 16px;
-    }
-
-    .sort-btn .btn i {
-        font-size: 16px;
-    }
-
-    .sort-btn .btn {
-        display: flex;
-        padding: 8px;
-        font-size: 16px;
-    }
+    
 
     .furniture-container {
         display: block;
@@ -776,7 +761,7 @@ header img {
 /*===Responsive for Tab and Laptop  screen=== */
 
 
-@media only screen and (min-width:800px) and (max-width:1200px) {
+@media only screen and (max-width: 992px)  {
 
     body {
         display: flex;
@@ -787,78 +772,14 @@ header img {
         border: none;
     }
 
-    header {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 10px;
-        width: 100%;
+    .header{
+        display: none;
     }
 
-    .logo {
-        padding: 10px;
+    .mobile{
+        display: block;
     }
 
-    .logo img {
-        width: 100px;
-        height: 100px;
-    }
-
-    .hello {
-        font-size: 24px;
-    }
-
-    .hello img {
-        width: 50px;
-        height: 50px;
-    }
-
-    .search-bar {
-        margin: 20px;
-        width: 90%;
-        height: 50px;
-        padding: 10px;
-    }
-
-    .search-bar input {
-        font-size: 24px;
-        height: 50px;
-    }
-
-    .search-bar i {
-        left: 50px;
-        width: 50px;
-        height: 40px;
-        padding: 10px;
-        font-size: 24px;
-    }
-
-    .profile {
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        width: 100%;
-        gap: 100px;
-    }
-
-    .profile i {
-        font-size: 32px;
-        color: #a08585;
-    }
-
-    .profile-img {
-        gap: 20px;
-    }
-
-    .profile-img img {
-        width: 60px;
-        height: 60px;
-    }
-
-    .profile-img .user-name {
-        font-size: 24px;
-    }
 
 
     .main {
