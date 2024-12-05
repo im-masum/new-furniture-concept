@@ -630,7 +630,7 @@ header img {
 /* ========Responsive For Mobile======== */
 
 
-@media screen and (max-width:767px) {
+@media screen and (max-width:600px) {
 
     body {
         width: 100%;
@@ -647,7 +647,12 @@ header img {
     .mobile {
         display: block;
     }
-
+    .search-bx{
+        display: none;
+    }
+    .banner {
+        display: none;
+    }
     .product-container {
         top: -70px;
     }
