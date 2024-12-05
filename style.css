@@ -559,8 +559,7 @@ header img {
 .text h1 {
     display: flex;
     flex-wrap: wrap;
-    line-height: 100px;
-    font-size: 60px;
+    font-size: 100px;
     font-weight: 500;
 
 }
