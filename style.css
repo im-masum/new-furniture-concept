@@ -641,11 +641,11 @@ header img {
     }
 
     header {
-        display: flex;
+        display: none;
     }
 
     .mobile {
-        display: none;
+        display: block;
     }
 
     .product-container {
