@@ -637,7 +637,7 @@ header img {
 /* ========Responsive For Mobile======== */
 
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:767px) {
 
     body {
         width: 100%;
@@ -708,7 +708,7 @@ header img {
         align-items: center;
         justify-content: center;
         margin: 0px;
-        width: 280px;
+        width: 200px;
         font-size: 24px;
     }
 
@@ -728,7 +728,7 @@ header img {
 /*===Responsive for Tab and Laptop  screen=== */
 
 
-@media screen and (max-width: 992px) and (min-width:600px) {
+@media screen and (max-width: 992px) and (min-width:767px) {
 
     body {
         width: 100%;
@@ -797,16 +797,15 @@ header img {
     .items a {
         display: inline-flex;
         align-items: center;
-        justify-content: center;
         margin: 0px;
-        width: 280px;
-        font-size: 24px;
+        width: 180px;
+        font-size: 18px;
     }
 
     .items a span {
         font-size: 24px;
         font-weight: 800;
-        margin-left: 10px;
+        margin-left: 5px;
         color: #363738;
 
     }
