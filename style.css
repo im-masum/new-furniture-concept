@@ -666,7 +666,7 @@ header img {
 /* ========Responsive For Mobile======== */
 
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:767px) {
 
     body {
         width: 100%;
@@ -777,7 +777,7 @@ header img {
 /*===Responsive for Tab and Laptop  screen=== */
 
 
-@media screen and (max-width: 900px) and (min-width:600px) {
+@media screen and (max-width: 990px) and (min-width:767px) {
 
     body {
         width: 100%;
