@@ -553,11 +553,12 @@ header img {
 
 .text {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 20px;
     width: 100%;
     height: 200px;
     padding: 10px;
-    align-items: center;
 }
 
 .text h1 {
