@@ -546,9 +546,8 @@ header i {
 }
 
 header img {
-    align-items: center;
     width: 100px;
-    height: 100px;
+    height: 10px;
     border-radius: 25px;
 }
 
@@ -573,7 +572,7 @@ header img {
     display: flex;
     position: relative;
     right: 80px;
-    width: 150px;
+    width: 100px;
     top: -30px;
     height: 80px;
     border-radius: 15px;
