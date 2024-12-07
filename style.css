@@ -562,9 +562,9 @@ header img {
 }
 
 .text h1 {
-    display: inline-flex;
+    display: flex;
     line-height: 60px;
-    font-size: 32px;
+    font-size: 24px;
     font-weight: 500;
 
 }
