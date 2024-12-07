@@ -623,7 +623,7 @@ header img {
 }
 
 .slider-icon {
-    font-size: 32px;
+    font-size: 24px;
     background-color: #000;
     color: #fff;
     border-radius: 50%;
@@ -753,14 +753,14 @@ header img {
         align-items: center;
         justify-content: center;
         margin: 0px;
-        width: 150px;
+        
         font-size: 14px;
     }
 
     .items a span {
         font-size: 16px;
         font-weight: 800;
-        margin-left: 2px;
+        margin-left: 4px;
         color: #363738;
 
     }
