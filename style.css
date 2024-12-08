@@ -611,10 +611,10 @@ header img {
 
 .mobile-search-bar i {
     align-items: center;
-    left: 50px;
-    padding: 20px;
+    left: 20px;
+    padding: 10px;
     color: rgb(110, 110, 110);
-    font-size: 16px;
+    font-size: 12px;
     cursor: pointer;
 }
 
