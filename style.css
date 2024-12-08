@@ -748,13 +748,11 @@ header img {
 
     .items a {
         display: inline-flex;
-        align-items: center;
-        justify-content: center;
         margin: 0px;
-        width: 140px;
+        width: 130px;
         font-size: 12px;
         border-bottom: 1px solid gray;
-        top: 0px;
+        top: -10px;
     }
 
     .items a span {
@@ -766,7 +764,7 @@ header img {
     }
 
     .rating span {
-        font-size: 14px;
+        font-size: 12px;
     }
 }
 
