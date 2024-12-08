@@ -665,8 +665,8 @@ header img {
     align-items: center;
     justify-content: center;
     width: 90%;
+    height: 60px;
     padding: 10px 10px;
-    height: 80px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, .3);
     border-radius: 50px;
     background: white;
@@ -676,8 +676,8 @@ header img {
 
 .mobile-nav a {
     display: inline-block;
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
     gap: 10px;
     text-decoration: none;
     border-radius: 50px;
@@ -691,7 +691,7 @@ header img {
 .mobile-nav a i {
     color: #fdfdfd;
     font-size: 20px;
-    line-height: 60px;
+    line-height: 50px;
 }
 
 .mobile-nav a span {
@@ -699,7 +699,7 @@ header img {
     font-weight: 500;
     margin-left: 15px;
     color: #fdfdfd;
-    line-height: 80px;
+    line-height: 50px;
 }
 
 .mobile-nav a:hover {
