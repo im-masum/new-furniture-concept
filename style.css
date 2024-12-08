@@ -558,7 +558,6 @@ header img {
     gap: 20px;
     width: 100%;
     padding: 10px;
-    border: 1px solid red;
 }
 
 .text h1 {
@@ -572,8 +571,8 @@ header img {
 .text img {
     display: flex;
     position: relative;
-    width: 170px;
-    height: 100px;
+    width: 180px;
+    height: 110px;
     border-radius: 8px;
 }
 
