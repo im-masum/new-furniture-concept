@@ -676,8 +676,8 @@ header img {
 
 .mobile-nav a {
     display: inline-block;
-    width: 70px;
-    height: 70px;
+    width: 60px;
+    height: 60px;
     gap: 10px;
     text-decoration: none;
     border-radius: 50px;
@@ -690,8 +690,8 @@ header img {
 
 .mobile-nav a i {
     color: #fdfdfd;
-    font-size: 32px;
-    line-height: 70px;
+    font-size: 28px;
+    line-height: 60px;
 }
 
 .mobile-nav a span {
