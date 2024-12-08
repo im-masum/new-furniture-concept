@@ -558,13 +558,13 @@ header img {
     gap: 20px;
     width: 100%;
     padding: 10px;
+    border: 1px solid red;
 }
 
 .text h1 {
     display: flex;
-    flex-wrap: wrap;
     line-height: 40px;
-    font-size: 30px;
+    font-size: 32px;
     font-weight: 500;
 
 }
