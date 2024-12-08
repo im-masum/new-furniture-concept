@@ -572,7 +572,6 @@ header img {
 .text img {
     display: flex;
     position: relative;
-    right: 10px;
     width: 170px;
     height: 100px;
     border-radius: 8px;
