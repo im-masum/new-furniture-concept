@@ -748,8 +748,8 @@ header img {
     .items a {
         display: inline-flex;
         margin: 0px;
-        width: 120px;
-        font-size: 12px;
+        width: 140px;
+        font-size: 8px;
         border-bottom: 1px solid gray;
         top: -8px;
         color: #222020;
