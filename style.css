@@ -535,7 +535,7 @@ header {
     position: relative;
     align-items: center;
     justify-content: space-between;
-    padding: 15px;
+    padding: 10px 50px;
     width: 100%;
     border-bottom: .5px solid rgb(175, 169, 169);
 }
