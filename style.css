@@ -656,6 +656,56 @@ header img {
 
 }
 
+.mobile-nav {
+    display: flex;
+    position: fixed;
+    bottom: 30px;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 0px 10px;
+    height: 100px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, .3);
+    border-radius: 50px;
+    background: white;
+    z-index: 1;
+    opacity: .7;
+}
+
+.mobile-nav a {
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    gap: 10px;
+    text-decoration: none;
+    border-radius: 50px;
+    transition: .3s;
+    box-shadow: 0px 10px 10px .5 ;
+    background-color: #0c0c0c;
+    overflow: hidden;
+    text-align: center;
+}
+
+.mobile-nav a i {
+    color: #fdfdfd;
+    font-size: 32px;
+    line-height: 70px;
+}
+
+.mobile-nav a span {
+    font-size: 24px;
+    font-weight: 500;
+    margin-left: 15px;
+    color: #fdfdfd;
+
+    line-height: 80px;
+}
+
+.mobile-nav a:hover {
+    width: 200px;
+}
+
 
 /* ========================== */
 
@@ -766,6 +816,8 @@ header img {
     .rating span {
         font-size: 12px;
     }
+
+
 }
 
 /*===Responsive for Tab and Laptop  screen=== */
