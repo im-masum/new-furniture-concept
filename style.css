@@ -487,9 +487,9 @@ body {
     cursor: pointer;
     color: #000;
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 700;
     text-decoration: none;
-    border-bottom: 4px solid gray;
+    border-bottom: 2px solid gray;
     padding: 10px;
     transition: .5s;
 }
@@ -751,13 +751,15 @@ header img {
         align-items: center;
         justify-content: center;
         margin: 0px;
-        width: 150px;
-        font-size: 14px;
+        width: 140px;
+        font-size: 12px;
+        border-bottom: 1px solid gray;
+        top: 0px;
     }
 
     .items a span {
-        font-size: 16px;
-        font-weight: 800;
+        font-size: 14px;
+        font-weight: 700;
         margin-left: 1px;
         color: #363738;
 
