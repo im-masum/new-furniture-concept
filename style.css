@@ -749,10 +749,11 @@ header img {
     .items a {
         display: inline-flex;
         margin: 0px;
-        width: 130px;
+        width: 120px;
         font-size: 12px;
         border-bottom: 1px solid gray;
         top: -10px;
+        color: #222020;
     }
 
     .items a span {
